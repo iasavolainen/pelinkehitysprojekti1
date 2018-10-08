@@ -1371,7 +1371,6 @@ Windows.Input:/Script/Engine.InputSettings:bAltEnterTogglesFullscreen:0=True
 Windows.Input:/Script/Engine.InputSettings:bF11TogglesFullscreen:0=True
 Windows.Input:/Script/Engine.InputSettings:bRequireCtrlToNavigateAutoComplete:0=False
 Windows.Input:/Script/Engine.InputSettings:bEnableGestureRecognizer:0=False
-Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
 Windows.Input:/Script/Engine.InputSettings:TriggerKeyIsConsideredPressed:0=0.75
 Windows.Input:/Script/Engine.InputSettings:TriggerKeyIsConsideredReleased:0=0.25
 Windows.Input:/Script/Engine.InputSettings:AxisConfig:0=(AxisKeyName="Gamepad_LeftX",AxisProperties=(DeadZone=0.250000,Sensitivity=1.000000,Exponent=1.000000,bInvert=False))
@@ -1404,7 +1403,13 @@ Windows.Input:/Script/Engine.InputSettings:bUseAutocorrect:0=False
 Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseCaptureMode:0=CapturePermanently_IncludingInitialMouseDown
 Windows.Input:/Script/Engine.InputSettings:DefaultViewportMouseLockMode:0=LockOnCapture
 Windows.Input:/Script/Engine.InputSettings:ActionMappings:0=(ActionName="Jump",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=W)
+Windows.Input:/Script/Engine.InputSettings:ActionMappings:1=(ActionName="Jump",bShift=False,bCtrl=False,bAlt=False,bCmd=False,Key=Up)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:0=(AxisName="Right",Scale=1.000000,Key=D)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:1=(AxisName="Right",Scale=1.000000,Key=Right)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:2=(AxisName="Right",Scale=-1.000000,Key=Left)
+Windows.Input:/Script/Engine.InputSettings:AxisMappings:3=(AxisName="Right",Scale=-1.000000,Key=A)
 Windows.Input:/Script/Engine.InputSettings:ConsoleKey:0=None
+Windows.Input:/Script/Engine.InputSettings:ConsoleKeys:0=Tilde
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:0=(Key=F11,Command="LevelEditor.ToggleImmersive")
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:1=(Key=F11,Command="MainFrame.ToggleFullscreen",Shift=True)
 Windows.Input:/Script/Engine.PlayerInput:DebugExecBindings:2=(Key=F1,Command="viewmode wireframe", bIgnoreShift=True)
